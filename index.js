@@ -1,4 +1,8 @@
 import {createWriteStream, access} from 'fs';
+
+// https://stackoverflow.com/questions/58384179/syntaxerror-cannot-use-import-statement-outside-a-module
+
+
 import os from 'os';
 import path from 'path';
 import _mkdir from 'mkdirp';
@@ -153,4 +157,5 @@ async function download(opts) {
 
 download.pathExists = pathExists;
 download.cacheDir = cacheDir;
-module.exports = download;
+//module.exports = download;
+export default download = download;

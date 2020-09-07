@@ -56,5 +56,11 @@
       "transform-regenerator",
       "syntax-async-functions"
     ]
+  },
+  "type": "module",
+  "imports": {
+    "#download": {
+      "node": "./index.js"
+    }
   }
 }
