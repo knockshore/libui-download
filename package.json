@@ -1,5 +1,5 @@
 {
-  "name": "libui-download",
+  "name": "@w8coffee/libui-download",
   "version": "1.1.0",
   "description": "download libui prebuilt binary zips from github releases",
   "main": "es5.js",
@@ -15,9 +15,12 @@
     "cli.js"
   ],
   "engines": {
-    "node": ">=4"
+    "node": ">=14"
   },
-  "repository": "parro-it/libui-download",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knockshore/libui-download.git"
+  },
   "author": "Andrea Parodi",
   "license": "MIT",
   "dependencies": {
@@ -62,5 +65,9 @@
     "#download": {
       "node": "./index.js"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/knockshore/libui-download/issues"
+  },
+  "homepage": "https://github.com/knockshore/libui-download#readme"
 }
